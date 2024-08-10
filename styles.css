@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 4px solid #ddd;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    color: #5a2a5a;
+}
+
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.harmony {
+    background: #000000; /* Light green for harmony */;
+    color: #ffffff;
+    border-radius: 20px; /* Optional: round the corners */
+    border: 5px solid #ffffff; /* Add a border (color and width) */
+}
+
+.discord {
+    background: #766eef; /* Light red for discord */
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #5a2a5a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.spiky-cloud {
+    width: 500px;
+    height: 400px;
+    background-color: #083925;
+    clip-path: polygon(
+        10% 10%, 30% 0%, 50% 10%, 70% 0%, 90% 10%, 
+        100% 30%, 90% 50%, 100% 70%, 80% 90%, 
+        60% 80%, 40% 90%, 20% 80%, 0% 60%, 
+        10% 40%, 0% 30%, 10% 20%
+    );
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+body {
+    background: #7a7a7a;
+  }
